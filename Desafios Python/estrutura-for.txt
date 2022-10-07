@@ -1,0 +1,23 @@
+Aula: estrutura-for
+
+for c in range(6, 0, -2)
+	print(c)
+print('FIM')
+Console:
+6
+4
+2
+FIM
+
+# O primeiro número do range é referente a posição
+# inicial. O segundo a posição final. E o terceiro
+# à direção e a forma da contagem.
+# O último número sempre é ignorado.
+
+
+EXEMPLO:
+s = 0
+for c in range(0, 4):
+	n = int(input('Digite um número: '))
+	s += n 	   ->	# s = s + n
+print('O somatório dos números é {}.'.format(s))
